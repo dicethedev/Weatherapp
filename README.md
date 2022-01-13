@@ -1,5 +1,5 @@
 
-<img src="/src/assets/splash-screen.jpg">
+<img height="700" src="/src/assets/splash-screen.jpg">
 
 
 # vue-weather-app
