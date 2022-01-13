@@ -1,4 +1,4 @@
-![](app/src/assets/res/drawable/splash scren.jpg)
+![](src/assets/splash-screen.jpg)
 # vue-weather-app
 https://weatherappbyblessing.vercel.app/
 ## Project setup
