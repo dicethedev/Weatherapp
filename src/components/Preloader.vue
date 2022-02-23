@@ -33,7 +33,7 @@ export default {
     showToggle() {
       setTimeout(() => {
         this.show = false;
-      }, 1000);
+      }, 1500);
     },
   },
 };
@@ -69,7 +69,7 @@ export default {
   margin: -0.4rem;
   width: 120px;
   height: 120px;
-  background: url(../assets/Group-3.png);
+  background: url(../assets/logo.png);
   background-repeat: no-repeat;
   animation-name: turnThis;
   animation-duration: 1s;

@@ -15,7 +15,7 @@
       </div>
 
       <div class="title-sub">
-        <p>Developed by dicetheDev</p>
+        <p>Developed by Blessing Samuel (dicetheDev)</p>
       </div>
 
       <div class="search-box">
