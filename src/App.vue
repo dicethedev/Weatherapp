@@ -14,16 +14,15 @@
         <h1>Weather App</h1>
       </div>
 
-      <div class="title-sub">
+      <div class="title-name">
         <p>Developed by Blessing Samuel (dicetheDev)</p>
       </div>
 
       <div class="search-box">
-        <span class="las la-search"></span>
         <input
           type="search"
           class="search-bar"
-          placeholder="Search here..."
+          placeholder="Search any location of your choice"
           v-model="query"
           v-on:keypress="fetchWeather"
         />
@@ -131,7 +130,7 @@ body {
 }
 
 #app {
-  background-image: url("./assets/blurred-cold.jpg");
+  background-image: url("./assets/cold.jpg");
   background-size: cover;
   background-position: bottom;
   transition: 0.5s;
@@ -139,7 +138,7 @@ body {
 
 /*this image is changing the backgound when is warm */
 #app.warm {
-  background-image: url("./assets/warm-bg.jpg");
+  background-image: url("./assets/warm2-bg.jpg");
 }
 
 main {
@@ -166,7 +165,7 @@ main {
   color: #fff;
 }
 
-.title-sub p {
+.title-name p {
   display: flex;
   margin-bottom: 40px;
   font-size: 18px;
@@ -203,6 +202,40 @@ main {
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
   background-color: rgba(255, 255, 255, 0.75);
   border-radius: 16px;
+}
+
+/* Style the search field */
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .location-box .location {

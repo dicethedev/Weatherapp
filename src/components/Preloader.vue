@@ -3,7 +3,7 @@
     <div v-if="show" class="preloader">
       <div class="preloader-content">
         <div class="logo">
-          <img src="@/assets/Group-3.png" alt="" />
+          <img src="@/assets/logo.png" alt="" />
         </div>
       </div>
       <div class="circles">
@@ -33,7 +33,7 @@ export default {
     showToggle() {
       setTimeout(() => {
         this.show = false;
-      }, 1500);
+      }, 1000);
     },
   },
 };
@@ -59,21 +59,16 @@ export default {
   background-color: rgba(0, 207, 253, 1);
   box-shadow: -1px 10px 25px -1px #0d6e84;
   padding: 1.5rem;
-  height: 150px;
-  width: 150px;
-  border-radius: 40px;
+  height: 120px;
+  width: 120px;
+  border-radius: 30px;
   box-sizing: border-box;
 }
 
 .logo img {
-  margin: -0.4rem;
-  width: 120px;
-  height: 120px;
-  background: url(../assets/logo.png);
-  background-repeat: no-repeat;
-  animation-name: turnThis;
-  animation-duration: 1s;
-  transform: turn(0);
+  margin: -0.7rem;
+  width: 100px;
+  height: 100px;
 }
 
 .circles {
@@ -102,20 +97,20 @@ export default {
   transition: opacity 1s;
 }
 
-.logo {
+/* .logo {
   animation-name: scaleOut;
   animation-duration: 0.8s;
-}
+} */
 
 .fade-enter,
 .fade-leave-to {
   opacity: 0;
 }
-@keyframes turnThis {
+/* @keyframes turnThis {
   0% {
     transform: rotate(1turn);
   }
-}
+} */
 
 @keyframes scaleOut {
   0% {
