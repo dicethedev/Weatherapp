@@ -3,7 +3,8 @@
 
 
 # vue-weather-app
-https://weatherappbyblessing.vercel.app/
+https://weatherapp-blessing-samuel.vercel.app/
+
 ## Project setup
 ```
 npm install
